@@ -1,0 +1,161 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:2:1-44:12
+	package
+		ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:2:11-58
+		INJECTED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:3:11-69
+	android:versionCode
+		INJECTED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:6:5-78
+	android:name
+		ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:7:22-78
+application
+ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:9:5-42:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.12.0\AndroidManifest.xml:28:5-37:19
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:customtabs:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\customtabs\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:12:9-41
+	android:supportsRtl
+		ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:13:9-35
+	android:allowBackup
+		ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:10:9-35
+	android:icon
+		ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:11:9-38
+	android:theme
+		ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:14:9-40
+activity#cf.howsimplyisitdone.textnobelaeditor.MainActivity
+ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:15:9-23:20
+	android:theme
+		ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:17:13-44
+	android:name
+		ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:16:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:19:17-68
+	android:name
+		ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:21:17-76
+	android:name
+		ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:21:27-74
+activity#cf.howsimplyisitdone.textnobelaeditor.ContactActivity
+ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:24:9-25:20
+	android:name
+		ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:24:19-50
+activity#cf.howsimplyisitdone.textnobelaeditor.CreateContactActivity
+ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:26:9-27:20
+	android:name
+		ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:26:19-56
+activity#cf.howsimplyisitdone.textnobelaeditor.ContactDetailActivity
+ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:28:9-29:20
+	android:name
+		ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:28:19-56
+activity#cf.howsimplyisitdone.textnobelaeditor.MessageActivity
+ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:30:9-31:20
+	android:name
+		ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:30:19-50
+activity#cf.howsimplyisitdone.textnobelaeditor.ChatActivity
+ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:32:9-33:20
+	android:name
+		ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:32:19-47
+activity#cf.howsimplyisitdone.textnobelaeditor.CreateMessageActivity
+ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:34:9-35:20
+	android:name
+		ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:34:19-56
+activity#cf.howsimplyisitdone.textnobelaeditor.SelectContactActivity
+ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:36:9-37:20
+	android:name
+		ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:36:19-56
+activity#cf.howsimplyisitdone.textnobelaeditor.MessageDetailActivity
+ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:38:9-39:20
+	android:name
+		ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:38:19-56
+activity#cf.howsimplyisitdone.textnobelaeditor.SettingActivity
+ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:40:9-41:20
+	android:name
+		ADDED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml:40:19-50
+uses-sdk
+INJECTED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.12.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:customtabs:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\customtabs\23.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [:AudienceNetwork:] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\AudienceNetwork\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\src\main\AndroidManifest.xml
+activity#com.facebook.FacebookActivity
+ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.12.0\AndroidManifest.xml:29:9-32:75
+	android:configChanges
+		ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.12.0\AndroidManifest.xml:31:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.12.0\AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.12.0\AndroidManifest.xml:30:13-57
+activity#com.facebook.CustomTabActivity
+ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.12.0\AndroidManifest.xml:33:9-36:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.12.0\AndroidManifest.xml:35:13-36
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.12.0\AndroidManifest.xml:34:13-58

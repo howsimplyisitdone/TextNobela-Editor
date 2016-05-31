@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "C:\\Users\\dominic.m.condes\\AndroidStudioProjects\\TextNobelaEditor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\edit.png",
+        "source": "C:\\Users\\dominic.m.condes\\AndroidStudioProjects\\TextNobelaEditor\\app\\src\\main\\res\\mipmap-xhdpi\\edit.png"
+    },
+    {
+        "merged": "C:\\Users\\dominic.m.condes\\AndroidStudioProjects\\TextNobelaEditor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\message.png",
+        "source": "C:\\Users\\dominic.m.condes\\AndroidStudioProjects\\TextNobelaEditor\\app\\src\\main\\res\\mipmap-xhdpi\\message.png"
+    },
+    {
+        "merged": "C:\\Users\\dominic.m.condes\\AndroidStudioProjects\\TextNobelaEditor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\capture.png",
+        "source": "C:\\Users\\dominic.m.condes\\AndroidStudioProjects\\TextNobelaEditor\\app\\src\\main\\res\\mipmap-xhdpi\\capture.png"
+    },
+    {
+        "merged": "C:\\Users\\dominic.m.condes\\AndroidStudioProjects\\TextNobelaEditor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\check.png",
+        "source": "C:\\Users\\dominic.m.condes\\AndroidStudioProjects\\TextNobelaEditor\\app\\src\\main\\res\\mipmap-xhdpi\\check.png"
+    },
+    {
+        "merged": "C:\\Users\\dominic.m.condes\\AndroidStudioProjects\\TextNobelaEditor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\save.png",
+        "source": "C:\\Users\\dominic.m.condes\\AndroidStudioProjects\\TextNobelaEditor\\app\\src\\main\\res\\mipmap-xhdpi\\save.png"
+    },
+    {
+        "merged": "C:\\Users\\dominic.m.condes\\AndroidStudioProjects\\TextNobelaEditor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\delete.png",
+        "source": "C:\\Users\\dominic.m.condes\\AndroidStudioProjects\\TextNobelaEditor\\app\\src\\main\\res\\mipmap-xhdpi\\delete.png"
+    },
+    {
+        "merged": "C:\\Users\\dominic.m.condes\\AndroidStudioProjects\\TextNobelaEditor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\dominic.m.condes\\AndroidStudioProjects\\TextNobelaEditor\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\dominic.m.condes\\AndroidStudioProjects\\TextNobelaEditor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\setting.png",
+        "source": "C:\\Users\\dominic.m.condes\\AndroidStudioProjects\\TextNobelaEditor\\app\\src\\main\\res\\mipmap-xhdpi\\setting.png"
+    },
+    {
+        "merged": "C:\\Users\\dominic.m.condes\\AndroidStudioProjects\\TextNobelaEditor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\person.png",
+        "source": "C:\\Users\\dominic.m.condes\\AndroidStudioProjects\\TextNobelaEditor\\app\\src\\main\\res\\mipmap-xhdpi\\person.png"
+    },
+    {
+        "merged": "C:\\Users\\dominic.m.condes\\AndroidStudioProjects\\TextNobelaEditor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\send.png",
+        "source": "C:\\Users\\dominic.m.condes\\AndroidStudioProjects\\TextNobelaEditor\\app\\src\\main\\res\\mipmap-xhdpi\\send.png"
+    },
+    {
+        "merged": "C:\\Users\\dominic.m.condes\\AndroidStudioProjects\\TextNobelaEditor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\back.png",
+        "source": "C:\\Users\\dominic.m.condes\\AndroidStudioProjects\\TextNobelaEditor\\app\\src\\main\\res\\mipmap-xhdpi\\back.png"
+    },
+    {
+        "merged": "C:\\Users\\dominic.m.condes\\AndroidStudioProjects\\TextNobelaEditor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\add.png",
+        "source": "C:\\Users\\dominic.m.condes\\AndroidStudioProjects\\TextNobelaEditor\\app\\src\\main\\res\\mipmap-xhdpi\\add.png"
+    },
+    {
+        "merged": "C:\\Users\\dominic.m.condes\\AndroidStudioProjects\\TextNobelaEditor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\settings.png",
+        "source": "C:\\Users\\dominic.m.condes\\AndroidStudioProjects\\TextNobelaEditor\\app\\src\\main\\res\\mipmap-xhdpi\\settings.png"
+    },
+    {
+        "merged": "C:\\Users\\dominic.m.condes\\AndroidStudioProjects\\TextNobelaEditor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\close.png",
+        "source": "C:\\Users\\dominic.m.condes\\AndroidStudioProjects\\TextNobelaEditor\\app\\src\\main\\res\\mipmap-xhdpi\\close.png"
+    }
+]

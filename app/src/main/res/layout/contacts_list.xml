@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MainLayout"
+    tools:context="cf.howsimplyisitdone.textnobelaeditor.ContactActivity">
+
+    <TextView
+        android:id="@+id/listContactName"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:text="Name"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/listContactId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/listContactNote"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/listContactName"
+        android:paddingLeft="25dp"
+        android:paddingRight="10dp"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:text="This will contain the notes."
+        android:textStyle="normal"
+        android:textColor="@color/colorPrimary"
+        android:maxLines="1"
+        android:maxLength="100"/>
+
+</RelativeLayout>

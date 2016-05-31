@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="cf.howsimplyisitdone.textnobelaeditor.MessageDetailActivity">
+<RelativeLayout
+    android:id="@+id/Main"
+    android:focusableInTouchMode="true"
+    style="@style/MainLayout">
+
+    <RelativeLayout
+        android:id="@+id/mCreateMessage"
+        style="@style/TopMenu"
+        android:paddingRight="15dp">
+
+        <ImageView
+            android:id="@+id/iBackMessageDetail"
+            android:layout_alignParentLeft="true"
+            style="@style/MenuImages"
+            android:src="@mipmap/back"
+            android:onClick="clickBackMessageDetail"/>
+
+        <TextView
+            android:id="@+id/tvToContact"
+            style="@style/MainChoicesLayout"
+            android:layout_toRightOf="@id/iBackMessageDetail"
+            android:paddingRight="36dp"
+            android:gravity="center_horizontal"
+            android:background="@color/colorPrimary"
+            android:text="Name"
+            android:textSize="28sp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvFromContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tvMessageFrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tvMessageTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/mBottomCreateMessage"
+        style="@style/BottomMenu">
+
+        <ImageView
+            android:id="@+id/iSend"
+            style="@style/MenuImages"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/send"
+            android:onClick="clickSendMessage"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/etMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/iSend"
+            android:layout_marginTop="3dp"
+            android:background="@color/colorWhite"
+            android:maxLines="4"
+            android:minLines="1"
+            android:maxLength="1000"
+            android:longClickable="false"
+            android:clickable="false"
+            android:textSize="25sp"
+            android:textColor="@android:color/darker_gray"
+            android:fontFamily="sans-serif"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listMessage"
+        style="@style/List"
+        android:layout_below="@id/mCreateMessage"
+        android:layout_above="@id/mBottomCreateMessage">
+
+    </ListView>
+
+</RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/capture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:clickable="true"
+        android:src="@mipmap/capture"
+        app:layout_anchor="@id/Main"
+        app:layout_anchorGravity="top|right|end"/>
+
+</android.support.design.widget.CoordinatorLayout>

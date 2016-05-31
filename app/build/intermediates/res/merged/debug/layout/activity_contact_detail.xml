@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MainLayout"
+    tools:context="cf.howsimplyisitdone.textnobelaeditor.ContactDetailActivity">
+
+    <RelativeLayout
+        android:id="@+id/mContactDetail"
+        style="@style/TopMenu">
+
+        <ImageView
+            android:id="@+id/iBackContactDetail"
+            style="@style/MenuImages"
+            android:src="@mipmap/back"
+            android:onClick="clickBackContactDetail"/>
+
+        <ImageView
+            android:id="@+id/iEditContactDetail"
+            style="@style/MenuImages"
+            android:src="@mipmap/edit"
+            android:layout_alignParentRight="true"
+            android:onClick="clickEditContact"/>
+
+        <ImageView
+            android:id="@+id/iSaveContactDetail"
+            style="@style/MenuImages"
+            android:src="@mipmap/save"
+            android:layout_alignParentRight="true"
+            android:visibility="gone"
+            android:onClick="clickSaveContact"/>
+
+        <TextView
+            android:id="@+id/tvContactName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/iBackContactDetail"
+            android:layout_toLeftOf="@id/iEditContactDetail"
+            android:gravity="center_horizontal"
+            android:text="@string/contact_detail"
+            android:textSize="28sp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/etContactName"
+        style="@style/ContactDetails"
+        android:layout_below="@id/mContactDetail"
+        android:hint="@string/hint_name"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/etContactNote"
+        style="@style/ContactDetails"
+        android:paddingLeft="20dp"
+        android:textSize="20sp"
+        android:layout_below="@id/etContactName"
+        android:hint="@string/hint_note"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tvName"
+        style="@style/ContactDetails"
+        android:layout_below="@id/mContactDetail"
+        android:hint="@string/hint_name"/>
+
+    <TextView
+        android:id="@+id/tvNote"
+        style="@style/ContactDetails"
+        android:paddingLeft="20dp"
+        android:textSize="20sp"
+        android:layout_below="@id/tvName"
+        android:hint="@string/hint_note"
+        android:textAppearance="@android:style/TextAppearance.Medium"/>
+
+    <TextView
+        android:id="@+id/tvId"
+        style="@style/ContactDetails"
+        android:visibility="gone"/>
+
+</RelativeLayout>

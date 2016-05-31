@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MainLayout"
+    android:focusableInTouchMode="true"
+    tools:context="cf.howsimplyisitdone.textnobelaeditor.CreateMessageActivity">
+
+    <RelativeLayout
+        android:id="@+id/mCreateMessage"
+        style="@style/TopMenu">
+
+        <ImageView
+            android:id="@+id/iBackCreateMessage"
+            android:layout_alignParentLeft="true"
+            style="@style/MenuImages"
+            android:src="@mipmap/back"
+            android:onClick="clickBackCreateMessage"/>
+
+        <ImageView
+            android:id="@+id/iAddContact"
+            android:layout_alignParentRight="true"
+            style="@style/MenuImages"
+            android:src="@mipmap/person"
+            android:onClick="clickSelectContact"
+            android:focusable="false"/>
+
+        <TextView
+            android:id="@+id/tvMessageContact"
+            style="@style/MainChoicesLayout"
+            android:layout_toRightOf="@id/iBackCreateMessage"
+            android:layout_toLeftOf="@id/iAddContact"
+            android:gravity="center_horizontal"
+            android:background="@color/colorPrimary"
+            android:text="@string/create_contact"
+            android:textSize="28sp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvMessageFrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tvMessageTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/mBottomCreateMessage"
+        style="@style/BottomMenu"
+        >
+
+        <ImageView
+            android:id="@+id/iSend"
+            style="@style/MenuImages"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/send"
+            android:onClick="clickSend"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/etMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/iSend"
+            android:layout_marginTop="3dp"
+            android:background="@color/colorWhite"
+            android:maxLines="4"
+            android:minLines="1"
+            android:maxLength="1000"
+            android:longClickable="false"
+            android:clickable="false"
+            android:textSize="25sp"
+            android:textColor="@android:color/darker_gray"
+            android:fontFamily="sans-serif"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/adViewContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/mCreateMessage"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ads Here"/>
+    </RelativeLayout>
+
+</RelativeLayout>

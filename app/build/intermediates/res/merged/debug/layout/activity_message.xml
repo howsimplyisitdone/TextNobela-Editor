@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MainLayout"
+    tools:context="cf.howsimplyisitdone.textnobelaeditor.MessageActivity">
+
+    <RelativeLayout
+        android:id="@+id/mMessageContact"
+        style="@style/TopMenu">
+
+        <ImageView
+            android:id="@+id/iBackMessageContact"
+            android:layout_alignParentLeft="true"
+            style="@style/MenuImages"
+            android:src="@mipmap/back"
+            android:onClick="clickBackMessage"/>
+
+        <ImageView
+            android:id="@+id/iCreateMessage"
+            android:layout_alignParentRight="true"
+            style="@style/MenuImages"
+            android:src="@mipmap/edit"
+            android:onClick="clickCreateMessage"/>
+
+        <TextView
+            android:id="@+id/tvName"
+            style="@style/MainChoicesLayout"
+            android:layout_toRightOf="@id/iBackMessageContact"
+            android:layout_toLeftOf="@id/iCreateMessage"
+            android:gravity="center_horizontal"
+            android:background="@color/colorPrimary"
+            android:text="@string/message_history"
+            android:textSize="28sp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listMessageContact"
+        style="@style/List"
+        android:layout_below="@id/mMessageContact">
+
+    </ListView>
+
+</RelativeLayout>

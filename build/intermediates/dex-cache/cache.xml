@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_f3a425cd756730d8828a20c1d9504acb1c776164.jar" />
+    </item>
+    <item
+        jar="C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-23.4.0_2ae30d7ad840d296e734e34aadae00c27011ed2c.jar" />
+    </item>
+    <item
+        jar="C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_dc92cb37fe581089c64fac8efc399f96dc36cf5e.jar" />
+    </item>
+    <item
+        jar="C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="9afac9eda8595cf398ef07e3a7ca4b624f66770f">
+        <dex dex="C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_e8a2bce110c0a34b7d2e0d6efe43ab60168309fd.jar" />
+    </item>
+    <item
+        jar="C:\Users\dominic.m.condes\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_969ef99910ed0e97be84b3534c51286f30b62d76.jar" />
+    </item>
+    <item
+        jar="C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\AudienceNetwork\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="10a5cfe920375f9fb249f96fee9b9a08ff496759">
+        <dex dex="C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\pre-dexed\debug\intermediates-exploded-aar-AudienceNetwork_726cbe6b3d68c4a819a26bf08af00ee6541f68d2.jar" />
+    </item>
+    <item
+        jar="C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\customtabs\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="2d1eaa9e0b98f8fc4c2b989d9b30d4f1480648ac">
+        <dex dex="C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\pre-dexed\debug\com.android.support-customtabs-23.4.0_0160ae9e65ddf90b87c554d6af641e74ced65f24.jar" />
+    </item>
+    <item
+        jar="C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.4.0_c1106f3592683fdb2086a92a3eed7fc7174e7040.jar" />
+    </item>
+    <item
+        jar="C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.12.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="384a601bf7671716768cc8586f39816a08ce74c3">
+        <dex dex="C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\pre-dexed\debug\com.facebook.android-facebook-android-sdk-4.12.0_bea481b0b73e011fe85a08f38812f66710e9642b.jar" />
+    </item>
+    <item
+        jar="C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_119b5c7718666cf8924b45670769e30840dd9b5c.jar" />
+    </item>
+    <item
+        jar="C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_12ba140227ecae89d4b443b672756daaaa0b1bc4.jar" />
+    </item>
+    <item
+        jar="C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_b9319cbb1aaa6b2ffba42b5ba1e81af971269fff.jar" />
+    </item>
+    <item
+        jar="C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.4.0_0cbdff4abb67596b0e3efde4f834e1dccdcb7906.jar" />
+    </item>
+    <item
+        jar="C:\Users\dominic.m.condes\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\pre-dexed\debug\bolts-applinks-1.4.0_de9e5d9d4ec6c081d781dc15cf1428087377d3c4.jar" />
+    </item>
+    <item
+        jar="C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6d9c808358e6669671a09beed350c56641bafafb">
+        <dex dex="C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\pre-dexed\debug\instant-run_d320699b5ace084e7f57d675d0b54b2b562f953c.jar" />
+    </item>
+    <item
+        jar="C:\Users\dominic.m.condes\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\dominic.m.condes\AndroidStudioProjects\TextNobelaEditor\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_08beeaf7264ecb89e19de218ea48800f0b26482e.jar" />
+    </item>
+
+</items>

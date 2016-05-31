@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MainLayout"
+    tools:context="cf.howsimplyisitdone.textnobelaeditor.ChatActivity">
+
+    <RelativeLayout
+        android:id="@+id/mChatContact"
+        style="@style/TopMenu">
+
+        <ImageView
+            android:id="@+id/iBackMessageContact"
+            android:layout_alignParentLeft="true"
+            style="@style/MenuImages"
+            android:src="@mipmap/back"
+            android:onClick="clickBackChat"/>
+
+
+        <TextView
+            android:id="@+id/tvChat"
+            style="@style/MainChoicesLayout"
+            android:layout_toRightOf="@id/iBackMessageContact"
+            android:paddingRight="36dp"
+            android:gravity="center_horizontal"
+            android:background="@color/colorPrimary"
+            android:text="@string/chat_activity"
+            android:textSize="28sp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listChatContact"
+        style="@style/List"
+        android:layout_below="@id/mChatContact">
+
+    </ListView>
+
+</RelativeLayout>

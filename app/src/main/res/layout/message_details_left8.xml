@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MainLayout"
+    tools:context="cf.howsimplyisitdone.textnobelaeditor.ContactActivity">
+
+    <TextView
+        android:id="@+id/listMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_alignParentLeft="true"
+        android:text="Message"
+        android:textSize="21sp"
+        android:textStyle="normal"
+        android:textColor="@color/colorBlack"
+        android:gravity="center_vertical|left"
+        android:background="@drawable/left8"/>
+
+    <TextView
+        android:id="@+id/listFromId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/listToId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/listFromName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/listToName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/listTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listMessage"
+        android:layout_marginLeft="25dp"
+        android:layout_alignParentLeft="true"
+        android:text="time"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@android:color/darker_gray"/>
+
+</RelativeLayout>

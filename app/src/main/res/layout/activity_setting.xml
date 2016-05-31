@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MainLayout"
+    tools:context="cf.howsimplyisitdone.textnobelaeditor.SettingActivity">
+
+    <RelativeLayout
+        android:id="@+id/mSetting"
+        style="@style/TopMenu">
+
+        <ImageView
+            android:id="@+id/iBackContact"
+            android:layout_alignParentLeft="true"
+            style="@style/MenuImages"
+            android:src="@mipmap/back"
+            android:onClick="clickBackSetting"/>
+
+        <ImageView
+            android:id="@+id/iSaveSetting"
+            android:layout_alignParentRight="true"
+            style="@style/MenuImages"
+            android:src="@mipmap/save"
+            android:onClick="clickSaveSetting"/>
+
+        <TextView
+            android:id="@+id/tvSetting"
+            style="@style/MainChoicesLayout"
+            android:layout_toRightOf="@id/iBackContact"
+            android:layout_toLeftOf="@id/iSaveSetting"
+            android:gravity="center_horizontal"
+            android:background="@color/colorPrimary"
+            android:text="@string/setting"
+            android:textSize="28sp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Message Layout"
+        android:textSize="30dp"
+        android:id="@+id/tvLayout"
+        android:layout_below="@+id/mSetting"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerLayout"
+        android:layout_below="@+id/tvLayout"
+        android:layout_alignLeft="@+id/tvLayout"
+        android:layout_alignStart="@+id/tvLayout"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:drawSelectorOnTop="true"
+        android:scrollIndicators="none"
+        android:textAlignment="center"/>
+
+    <RelativeLayout
+        android:id="@+id/mPreview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp">
+
+        <TextView
+            android:id="@+id/tvPreviewLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_alignParentLeft="true"
+            android:text="Hi. This is a sample message."
+            android:textSize="21sp"
+            android:textStyle="normal"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:id="@+id/tvPreviewTimeLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/tvPreviewLeft"
+            android:text="10:15"
+            android:textAppearance="@android:style/TextAppearance.Small"
+            android:textColor="@android:color/darker_gray"/>
+
+        <TextView
+            android:id="@+id/tvPreviewRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/tvPreviewTimeLeft"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_alignParentRight="true"
+            android:text="Hello! This is a sample reply to the message above to show the theme selected."
+            android:textSize="21sp"
+            android:textStyle="normal"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:id="@+id/tvPreviewTimeRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tvPreviewRight"
+            android:text="10:30"
+            android:textAppearance="@android:style/TextAppearance.Small"
+            android:textColor="@android:color/darker_gray"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Preview"
+        android:textSize="20dp"
+        android:id="@+id/tvPreview"
+        android:layout_above="@+id/mPreview"
+        android:layout_alignLeft="@+id/spinnerLayout"
+        android:layout_alignStart="@+id/spinnerLayout"/>
+
+
+</RelativeLayout>

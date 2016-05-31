@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MainLayout"
+    tools:context="cf.howsimplyisitdone.textnobelaeditor.ContactActivity">
+
+    <TextView
+        android:id="@+id/listMessageContactName"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:text="Name"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/listFromId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/listToId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/listContent"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/listMessageContactName"
+        android:paddingLeft="25dp"
+        android:paddingRight="10dp"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:text="This will contain the messages."
+        android:textStyle="normal"
+        android:textColor="@color/colorPrimary"
+        android:maxLength="100"
+        android:maxLines="1"/>
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MainLayout"
+    tools:context="cf.howsimplyisitdone.textnobelaeditor.ContactActivity">
+
+    <RelativeLayout
+        android:id="@+id/mContact"
+        style="@style/TopMenu">
+
+        <ImageView
+            android:id="@+id/iBackContact"
+            android:layout_alignParentLeft="true"
+            style="@style/MenuImages"
+            android:src="@mipmap/back"
+            android:onClick="clickBack"/>
+
+        <ImageView
+            android:id="@+id/iCreateContact"
+            android:layout_alignParentRight="true"
+            style="@style/MenuImages"
+            android:src="@mipmap/add"
+            android:onClick="clickCreateContact"/>
+
+        <TextView
+            android:id="@+id/tvContact"
+            style="@style/MainChoicesLayout"
+            android:layout_toRightOf="@id/iBackContact"
+            android:layout_toLeftOf="@id/iCreateContact"
+            android:gravity="center_horizontal"
+            android:background="@color/colorPrimary"
+            android:text="@string/add_contact"
+            android:textSize="28sp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listContact"
+        style="@style/List"
+        android:layout_below="@id/mContact">
+
+    </ListView>
+
+</RelativeLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MainLayout"
+    tools:context="cf.howsimplyisitdone.textnobelaeditor.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/iLogo"
+        style="@style/TopMenu">
+
+        <ImageView
+            android:id="@+id/iBack"
+            style="@style/MenuImages"
+            android:src="@mipmap/back"/>
+
+        <ImageView
+            android:id="@+id/iEdit"
+            style="@style/MenuImages"
+            android:src="@mipmap/edit"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:id="@+id/tvAppName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iBack"
+            android:layout_toLeftOf="@id/iEdit"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/app_name"
+            android:textSize="28sp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/iBottom"
+        style="@style/BottomMenu"
+        android:layout_height="40dp">
+
+        <ImageView
+            android:id="@+id/iSend"
+            style="@style/MenuImages"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/send"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/iSend"
+            android:background="@color/colorWhite"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/mBottom"
+        style="@style/MainChoicesLayout"
+        android:layout_below="@id/iLogo"
+        android:layout_above="@id/iBottom">
+
+        <TextView
+            android:id="@+id/tvMessageHistory"
+            style="@style/ChoicesLayout"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/right7"
+            android:text="@string/message_history"
+            android:textColor="@color/colorPrimaryDark"
+            android:onClick="clickMessageHistory"/>
+
+        <TextView
+            android:id="@+id/tvAddContact"
+            style="@style/ChoicesLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/tvMessageHistory"
+            android:background="@drawable/left7"
+            android:layout_marginBottom="20dp"
+            android:text="@string/add_contact"
+            android:textColor="@color/colorPrimary"
+            android:onClick="clickAddContact"/>
+
+        <TextView
+            android:id="@+id/tvSetting"
+            style="@style/ChoicesLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/tvMessageHistory"
+            android:background="@drawable/left7"
+            android:layout_marginTop="20dp"
+            android:text="@string/setting"
+            android:textColor="@color/colorPrimary"
+            android:onClick="clickSetting"/>
+
+        <RelativeLayout
+            android:id="@+id/adViewContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ads Here"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

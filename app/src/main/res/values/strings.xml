@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TextNobela Editor</string>
+    <string name="add_contact">Contacts</string>
+    <string name="message_history">Messages</string>
+    <string name="chat_activity">Chat As</string>
+    <string name="setting">Settings</string>
+    <string name="create_contact">Add Contact</string>
+    <string name="contact_detail">Contact Details</string>
+    <string name="edit_detail">Edit Details</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_note">Notes</string>
+    <string name="facebook_app_id">1034786473263529</string>
+</resources>

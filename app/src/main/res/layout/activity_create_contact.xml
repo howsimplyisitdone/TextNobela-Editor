@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MainLayout"
+    tools:context="cf.howsimplyisitdone.textnobelaeditor.CreateContactActivity">
+
+    <RelativeLayout
+        android:id="@+id/mCreateContact"
+        style="@style/TopMenu">
+
+        <ImageView
+            android:id="@+id/iBackCreateContact"
+            android:layout_alignParentLeft="true"
+            style="@style/MenuImages"
+            android:src="@mipmap/back"
+            android:onClick="clickContactBack"/>
+
+        <ImageView
+            android:id="@+id/iCreateContact"
+            android:layout_alignParentRight="true"
+            style="@style/MenuImages"
+            android:src="@mipmap/save"
+            android:onClick="clickSaveContact"/>
+
+        <TextView
+            android:id="@+id/tvSaveContact"
+            style="@style/MainChoicesLayout"
+            android:layout_toRightOf="@id/iBackCreateContact"
+            android:layout_toLeftOf="@id/iCreateContact"
+            android:gravity="center_horizontal"
+            android:background="@color/colorPrimary"
+            android:text="@string/create_contact"
+            android:textSize="28sp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/etContactName"
+        style="@style/ContactDetails"
+        android:layout_below="@id/mCreateContact"
+        android:hint="@string/hint_name"/>
+
+    <EditText
+        android:id="@+id/etContactNote"
+        style="@style/ContactDetails"
+        android:paddingLeft="20dp"
+        android:textSize="20sp"
+        android:layout_below="@id/etContactName"
+        android:hint="@string/hint_note"/>
+
+    <RelativeLayout
+        android:id="@+id/adViewContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ads Here"/>
+    </RelativeLayout>
+
+</RelativeLayout>
